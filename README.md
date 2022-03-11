@@ -14,7 +14,7 @@ Control file : dpkg -e package file_name.deb<br />
 List installed : dpkg -l<br />
 Content : dpkg -c package.deb<br />
 Configure : dpkg --configure package<br />
-Create a source package from the branch contents : debuild -S -d -us -uc <br />
+Create a source package from the branch contents : debuild -S -d -us -uc (S for change file..)<br />
 Add changelog text : dch -i <br />
 
 
