@@ -17,7 +17,7 @@ Content : dpkg -c package.deb<br />
 Configure : dpkg --configure package<br />
 Create a source package from the branch contents : debuild -S -d -us -uc (S for change file..)<br />
 Add changelog text : dch -i <br />
-List gpg key : gpg --list-secret(public)-keys <br />
+List gpg key : gpg --list-secret(public)-keys (--keyid-format SHORT) <br />
 
 
 ## __REFERENCE__ <br />
@@ -28,6 +28,7 @@ Git lab : https://salsa.debian.org/publicFun <br />
 Linux function : https://man7.org/linux/man-pages/man1/dpkg-source.1.html <br />
 Debian file : https://www.debian.org/doc/manuals/maint-guide/dother.zh-tw.html (Don't forget intsall file) <br />
 Debian file : https://www.debian.org/doc/manuals/debmake-doc/debmake-doc.zh-cn.pdf (Take time to read it) <br />
+GPG key cmd : https://blog.miniasp.com/post/2020/05/04/How-to-use-GPG-sign-git-commit-and-tag-object <br />
 
 ## __PPA Experience__ <br />
 Basic : https://help.launchpad.net/Packaging/PPA <br />
