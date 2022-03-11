@@ -15,6 +15,7 @@ List installed : dpkg -l<br />
 Content : dpkg -c package.deb<br />
 Configure : dpkg --configure package<br />
 Create a source package from the branch contents : debuild -S -d -us -uc <br />
+Add changelog text : dch -i <br />
 
 
 ## __REFERENCE__ <br />
@@ -23,6 +24,8 @@ Maintainer Scipts:https://wiki.debian.org/MaintainerScripts <br />
 Useful CMD : https://www.debian.org/doc/manuals/maint-guide/build.zh-tw.html <br />
 Git lab : https://salsa.debian.org/publicFun <br />
 Linux function : https://man7.org/linux/man-pages/man1/dpkg-source.1.html <br />
+Debian file : https://www.debian.org/doc/manuals/maint-guide/dother.zh-tw.html (Don't forget intsall file) <br />
+Debian file : https://www.debian.org/doc/manuals/debmake-doc/debmake-doc.zh-cn.pdf (Take time to read it) <br />
 
 ## __PPA Experience__ <br />
 Basic : https://help.launchpad.net/Packaging/PPA <br />
