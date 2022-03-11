@@ -1,0 +1,87 @@
+ dpkg-buildpackage -us -uc -ui -S
+dpkg-buildpackage: info: source package hello
+dpkg-buildpackage: info: source version 2.10-2ubuntu4
+dpkg-buildpackage: info: source distribution focal
+dpkg-buildpackage: info: source changed by Mike <mike@ubuntu>
+ dpkg-source --before-build .
+ debian/rules clean
+dh clean
+   debian/rules override_dh_auto_clean
+make[1]: Entering directory '/home/mike/Desktop/Debain_package_advance/hello-2.10'
+[ ! -f Makefile ] || /usr/bin/make distclean
+make[2]: Entering directory '/home/mike/Desktop/Debain_package_advance/hello-2.10'
+Making distclean in po
+make[3]: Entering directory '/home/mike/Desktop/Debain_package_advance/hello-2.10/po'
+rm -f *.insert-header
+rm -f remove-potcdate.sed
+rm -f stamp-poT
+rm -f core core.* hello.po hello.1po hello.2po *.new.po
+rm -fr *.o
+rm -f Makefile Makefile.in POTFILES *.mo
+make[3]: Leaving directory '/home/mike/Desktop/Debain_package_advance/hello-2.10/po'
+make[3]: Entering directory '/home/mike/Desktop/Debain_package_advance/hello-2.10'
+test -z "doc/hello.dvi doc/hello.pdf doc/hello.ps doc/hello.html" \
+|| rm -rf doc/hello.dvi doc/hello.pdf doc/hello.ps doc/hello.html
+test -z "hello" || rm -f hello
+test -z " lib/configmake.h lib/configmake.h-t lib/charset.alias lib/ref-add.sed lib/ref-del.sed" || rm -f  lib/configmake.h lib/configmake.h-t lib/charset.alias lib/ref-add.sed lib/ref-del.sed
+test -z "lib/libhello.a" || rm -f lib/libhello.a
+rm -rf doc/hello.t2d doc/hello.t2p
+rm -f *.o
+rm -f lib/*.o
+rm -f src/*.o
+test -z "lib/core lib/*.stackdump lib/errno.h lib/errno.h-t lib/getopt.h lib/getopt.h-t lib/arg-nonnull.h lib/arg-nonnull.h-t lib/c++defs.h lib/c++defs.h-t lib/warn-on-use.h lib/warn-on-use.h-t lib/stdbool.h lib/stdbool.h-t lib/stddef.h lib/stddef.h-t lib/stdio.h lib/stdio.h-t lib/stdlib.h lib/stdlib.h-t lib/string.h lib/string.h-t lib/sys/types.h lib/sys/types.h-t lib/unistd.h lib/unistd.h-t lib/wchar.h lib/wchar.h-t lib/wctype.h lib/wctype.h-t" || rm -f lib/core lib/*.stackdump lib/errno.h lib/errno.h-t lib/getopt.h lib/getopt.h-t lib/arg-nonnull.h lib/arg-nonnull.h-t lib/c++defs.h lib/c++defs.h-t lib/warn-on-use.h lib/warn-on-use.h-t lib/stdbool.h lib/stdbool.h-t lib/stddef.h lib/stddef.h-t lib/stdio.h lib/stdio.h-t lib/stdlib.h lib/stdlib.h-t lib/string.h lib/string.h-t lib/sys/types.h lib/sys/types.h-t lib/unistd.h lib/unistd.h-t lib/wchar.h lib/wchar.h-t lib/wctype.h lib/wctype.h-t
+test -z "tests/greeting-1.log tests/greeting-2.log tests/hello-1.log tests/last-1.log tests/traditional-1.log" || rm -f tests/greeting-1.log tests/greeting-2.log tests/hello-1.log tests/last-1.log tests/traditional-1.log
+test -z "tests/greeting-1.trs tests/greeting-2.trs tests/hello-1.trs tests/last-1.trs tests/traditional-1.trs" || rm -f tests/greeting-1.trs tests/greeting-2.trs tests/hello-1.trs tests/last-1.trs tests/traditional-1.trs
+test -z "test-suite.log" || rm -f test-suite.log
+rm -f vti.tmp
+rm -f *.tab.c
+test -z "" || rm -f 
+test . = "." || test -z "" || rm -f 
+rm -f doc/.dirstamp
+rm -f lib/.deps/.dirstamp
+rm -f lib/.dirstamp
+rm -f src/.deps/.dirstamp
+rm -f src/.dirstamp
+rm -f config.h stamp-h1
+test '.' = . || rm -f ./GNUmakefile
+rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
+rm -f cscope.out cscope.in.out cscope.po.out cscope.files
+make[3]: Leaving directory '/home/mike/Desktop/Debain_package_advance/hello-2.10'
+rm -f config.status config.cache config.log configure.lineno config.status.lineno
+rm -rf lib/.deps src/.deps
+rm -f Makefile
+make[2]: Leaving directory '/home/mike/Desktop/Debain_package_advance/hello-2.10'
+make[1]: Leaving directory '/home/mike/Desktop/Debain_package_advance/hello-2.10'
+   dh_clean
+ dpkg-source -b .
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building hello using existing ./hello_2.10.orig.tar.gz
+dpkg-source: info: using patch list from debian/patches/series
+dpkg-source: info: building hello in hello_2.10-2ubuntu4.debian.tar.xz
+dpkg-source: info: building hello in hello_2.10-2ubuntu4.dsc
+ dpkg-genbuildinfo --build=source
+ dpkg-genchanges --build=source >../hello_2.10-2ubuntu4_source.changes
+dpkg-genchanges: info: not including original source code in upload
+ dpkg-source --after-build .
+dpkg-buildpackage: info: binary and diff upload (original source NOT included)
+Now running lintian hello_2.10-2ubuntu4_source.changes ...
+E: hello changes: changed-by-address-malformed Mike <mike@ubuntu>
+W: hello source: debian-rules-should-not-use-custom-compression-settings dh_builddeb -- -Zzstd (line 12)
+W: hello source: maintainer-script-lacks-debhelper-token debian/postinst
+W: hello source: maintainer-script-lacks-debhelper-token debian/postrm
+W: hello source: maintainer-script-lacks-debhelper-token debian/preinst
+W: hello source: maintainer-script-lacks-debhelper-token debian/prerm
+W: hello source: package-uses-deprecated-debhelper-compat-version 9
+Finished running lintian.
+Now signing changes and any dsc files...
+long key IDs are discouraged; please use key fingerprints instead
+ signfile dsc hello_2.10-2ubuntu4.dsc 32632943FAF09BCB
+
+ fixup_buildinfo hello_2.10-2ubuntu4.dsc hello_2.10-2ubuntu4_source.buildinfo
+ signfile buildinfo hello_2.10-2ubuntu4_source.buildinfo 32632943FAF09BCB
+
+ fixup_changes dsc hello_2.10-2ubuntu4.dsc hello_2.10-2ubuntu4_source.changes
+ fixup_changes buildinfo hello_2.10-2ubuntu4_source.buildinfo hello_2.10-2ubuntu4_source.changes
+ signfile changes hello_2.10-2ubuntu4_source.changes 32632943FAF09BCB
+
+Successfully signed dsc, buildinfo, changes files
