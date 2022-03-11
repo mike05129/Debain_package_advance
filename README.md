@@ -37,4 +37,5 @@ OpenPGP Key : https://help.ubuntu.com/community/GnuPrivacyGuardHowto <br />
 
 ## __Troubleshooting__ <br />
 locked by another process : https://askubuntu.com/questions/219545/dpkg-error-dpkg-status-database-is-locked-by-another-process <br />
-Permission denide(/usr/bin/testing.sh):Before packaged,don't forget using chmod...  
+Permission denide(/usr/bin/testing.sh):Before packaged,don't forget using chmod... <br />
+ploading files for distribution UNRELEASED to ppa not allowed :  Don't forget revise targeting Ubuntu in changelog
