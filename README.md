@@ -15,7 +15,7 @@ Control file : dpkg -e package file_name.deb<br />
 List installed : dpkg -l<br />
 Content : dpkg -c package.deb<br />
 Configure : dpkg --configure package<br />
-Create a source package from the branch contents : debuild -S -d -us -uc (S for change file..)<br />
+Create a source package from the branch contents : debuild -S -d -us -uc (S for the "source.changes" file..)<br />
 Add changelog text : dch -i <br />
 List gpg key : gpg --list-secret(public)-keys (--keyid-format SHORT) <br />
 Upload PPA : dput ppa:count/ppa <br />
