@@ -18,7 +18,7 @@ Configure : dpkg --configure package<br />
 Create a source package from the branch contents : debuild -S -d -us -uc (S for change file..)<br />
 Add changelog text : dch -i <br />
 List gpg key : gpg --list-secret(public)-keys (--keyid-format SHORT) <br />
-Upload PPA : dput ppa:count/ppa
+Upload PPA : dput ppa:count/ppa <br />
 Download PPA : add-apt-repository ppa:count/ppa --> apt-get update
 
 
