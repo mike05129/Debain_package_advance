@@ -3,6 +3,7 @@ This is for Debian package assignment<br />
 Download source code to revise, add script file and upload to PPA<br />
 Suggest : Ubuntu 20.04<br />
 Basic packaging software : gnupg pbuilder,ubuntu-dev-tools,apt-file<br />
+Final result show as below : (Hello package add string during installation time and install script in /usr/bin )
 ![image](https://github.com/mike05129/Debain_package_advance/blob/main/Output%20of%20the%20installation%20and%20testing.sh.PNG)<br />
 
 
