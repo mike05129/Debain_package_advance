@@ -2,6 +2,7 @@
 This is for Debian package assignment<br />
 Download source code to revise, add script file and upload to PPA<br />
 Suggest : Ubuntu 20.04<br />
+Basic packaging software : gnupg pbuilder,ubuntu-dev-tools,apt-file<br />
 
 
 ## __Useful CMD__ <br />
