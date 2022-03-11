@@ -1,7 +1,7 @@
 # Debain_package_advance<br />
-This is for learning Debian package<br />
-Download source code revised and upload to PPA<br />
-Suggest requirement: Ubuntu 20.04<br />
+This is for Debian package assignment<br />
+Download source code to revise, add script file and upload to PPA<br />
+Suggest : Ubuntu 20.04<br />
 
 
 ## __Useful CMD__ <br />
