@@ -1,0 +1,33 @@
+ dpkg-buildpackage -us -uc -ui -S -d
+dpkg-buildpackage: info: source package hello
+dpkg-buildpackage: info: source version 2.10-2ubuntu4
+dpkg-buildpackage: info: source distribution focal
+dpkg-buildpackage: info: source changed by Mike <mike@ubuntu>
+ dpkg-source --before-build .
+ debian/rules clean
+dh clean
+   debian/rules override_dh_auto_clean
+make[1]: Entering directory '/home/mike/Desktop/Debain_package_advance/hello-2.10'
+[ ! -f Makefile ] || /usr/bin/make distclean
+make[1]: Leaving directory '/home/mike/Desktop/Debain_package_advance/hello-2.10'
+   dh_clean
+ dpkg-source -b .
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building hello using existing ./hello_2.10.orig.tar.gz
+dpkg-source: info: using patch list from debian/patches/series
+dpkg-source: info: building hello in hello_2.10-2ubuntu4.debian.tar.xz
+dpkg-source: info: building hello in hello_2.10-2ubuntu4.dsc
+ dpkg-genbuildinfo --build=source
+ dpkg-genchanges --build=source >../hello_2.10-2ubuntu4_source.changes
+dpkg-genchanges: info: not including original source code in upload
+ dpkg-source --after-build .
+dpkg-buildpackage: info: binary and diff upload (original source NOT included)
+Now running lintian hello_2.10-2ubuntu4_source.changes ...
+E: hello changes: changed-by-address-malformed Mike <mike@ubuntu>
+W: hello source: debian-rules-should-not-use-custom-compression-settings dh_builddeb -- -Zzstd (line 12)
+W: hello source: maintainer-script-lacks-debhelper-token debian/postinst
+W: hello source: maintainer-script-lacks-debhelper-token debian/postrm
+W: hello source: maintainer-script-lacks-debhelper-token debian/preinst
+W: hello source: maintainer-script-lacks-debhelper-token debian/prerm
+W: hello source: package-uses-deprecated-debhelper-compat-version 9
+Finished running lintian.

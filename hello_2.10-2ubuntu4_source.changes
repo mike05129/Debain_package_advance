@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Thu, 10 Mar 2022 21:24:53 -0800
+Source: hello
+Architecture: source
+Version: 2.10-2ubuntu4
+Distribution: focal
+Urgency: medium
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: Mike <mike@ubuntu>
+Changes:
+ hello (2.10-2ubuntu4) focal; urgency=medium
+ .
+   *This is for debian assignment
+Checksums-Sha1:
+ c31f6055a8dc1b7c1b5d50a225160658deb1684a 927 hello_2.10-2ubuntu4.dsc
+ a856863d1963fb04d784895de510dc3fca7ad8f7 7608 hello_2.10-2ubuntu4.debian.tar.xz
+ d4ce42c9d5e9573f2bb2ada82d48660ae32552fc 5097 hello_2.10-2ubuntu4_source.buildinfo
+Checksums-Sha256:
+ 833028a9a068a1456ff5683fa675a9c1234ab061447b4b78eda495eeb3828862 927 hello_2.10-2ubuntu4.dsc
+ f0b7d950eaf436f0aece579ec7ee36ecf39a02d81674904a9700c36bd2fc5939 7608 hello_2.10-2ubuntu4.debian.tar.xz
+ 83a398bab8ac6b0d07b0610cb04260e5e53884a3f57dd2a8ec5c81d435a7c22d 5097 hello_2.10-2ubuntu4_source.buildinfo
+Files:
+ 1b83c03ac5a23f58ef5e5ce4af3d58b7 927 devel optional hello_2.10-2ubuntu4.dsc
+ 684dd25d58d49c41171090e6174c4d12 7608 devel optional hello_2.10-2ubuntu4.debian.tar.xz
+ bf4dc5fc9495475ae9a9d36e78ebe9d6 5097 devel optional hello_2.10-2ubuntu4_source.buildinfo
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
