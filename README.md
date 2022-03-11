@@ -1,6 +1,6 @@
 # Debain_package_advance<br />
 This is for learning Debian package<br />
-Download source code<br />
+Download source code revised and upload to PPA<br />
 Suggest requirement: Ubuntu 20.04<br />
 
 
@@ -14,14 +14,20 @@ Control file : dpkg -e package file_name.deb<br />
 List installed : dpkg -l<br />
 Content : dpkg -c package.deb<br />
 Configure : dpkg --configure package<br />
-
+Create a source package from the branch contents : debuild -S -d -us -uc <br />
 
 
 ## __REFERENCE__ <br />
 GNU:http://www.gnu.org/software/software.html <br />
 Maintainer Scipts:https://wiki.debian.org/MaintainerScripts <br />
 Useful CMD : https://www.debian.org/doc/manuals/maint-guide/build.zh-tw.html <br />
-Git lab : https://salsa.debian.org/public
+Git lab : https://salsa.debian.org/publicFun <br />
+Linux function : https://man7.org/linux/man-pages/man1/dpkg-source.1.html <br />
+
+## __PPA Experience__ <br />
+Basic : https://help.launchpad.net/Packaging/PPA <br />
+PGP Email : https://help.launchpad.net/ReadingOpenPgpMail (using the latest way is much easier... ) <br />
+OpenPGP Key : https://help.ubuntu.com/community/GnuPrivacyGuardHowto <br />
 
 ## __Troubleshooting__ <br />
 locked by another process : https://askubuntu.com/questions/219545/dpkg-error-dpkg-status-database-is-locked-by-another-process <br />
