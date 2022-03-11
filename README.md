@@ -28,7 +28,7 @@ Maintainer Scipts:https://wiki.debian.org/MaintainerScripts <br />
 Useful CMD : https://www.debian.org/doc/manuals/maint-guide/build.zh-tw.html <br />
 Git lab : https://salsa.debian.org/publicFun <br />
 Linux function : https://man7.org/linux/man-pages/man1/dpkg-source.1.html <br />
-Debian file : https://www.debian.org/doc/manuals/maint-guide/dother.zh-tw.html (Don't forget intsall file) <br />
+Debian file : https://www.debian.org/doc/manuals/maint-guide/dother.zh-tw.html (Don't forget the "intsall" file) <br />
 Debian file : https://www.debian.org/doc/manuals/debmake-doc/debmake-doc.zh-cn.pdf (Take time to read it) <br />
 GPG key cmd : https://blog.miniasp.com/post/2020/05/04/How-to-use-GPG-sign-git-commit-and-tag-object <br />
 
