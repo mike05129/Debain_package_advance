@@ -26,7 +26,7 @@ Linux function : https://man7.org/linux/man-pages/man1/dpkg-source.1.html <br />
 
 ## __PPA Experience__ <br />
 Basic : https://help.launchpad.net/Packaging/PPA <br />
-PGP Email : https://help.launchpad.net/ReadingOpenPgpMail (using the latest way is much easier... ) <br />
+PGP Email : https://help.launchpad.net/ReadingOpenPgpMail (It's more easily using the latest way... ) <br />
 OpenPGP Key : https://help.ubuntu.com/community/GnuPrivacyGuardHowto <br />
 
 ## __Troubleshooting__ <br />
