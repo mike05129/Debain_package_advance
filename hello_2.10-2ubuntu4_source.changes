@@ -15,27 +15,27 @@ Changes:
  .
    *This is for debian assignment
 Checksums-Sha1:
- f1b8e14a49f8fa77412f86d60e4a651b47c8bd49 1465 hello_2.10-2ubuntu4.dsc
+ eb772b6ddaf10f9585458014e6df91d8532056cc 1465 hello_2.10-2ubuntu4.dsc
  a856863d1963fb04d784895de510dc3fca7ad8f7 7608 hello_2.10-2ubuntu4.debian.tar.xz
- ffc96b7178237c11e23c43bc633e3bb2b9985431 5638 hello_2.10-2ubuntu4_source.buildinfo
+ 2abef6078448dbd8fcc69509b5a5554de3be7732 5638 hello_2.10-2ubuntu4_source.buildinfo
 Checksums-Sha256:
- 7bf309efc35ae088886a09da8d9a8e7559d67a76e3b7ddb808e8a438450c1438 1465 hello_2.10-2ubuntu4.dsc
+ f3eb50c085e6364a357f511030895c14c208df3051f29cd9d3772501862961b6 1465 hello_2.10-2ubuntu4.dsc
  f0b7d950eaf436f0aece579ec7ee36ecf39a02d81674904a9700c36bd2fc5939 7608 hello_2.10-2ubuntu4.debian.tar.xz
- dcd8ce91d4ca9bb5cdfbe2770b5b579b529cb9b93640ba42a1c6324da6466bc7 5638 hello_2.10-2ubuntu4_source.buildinfo
+ cc7e6083408907b1312c7c1f59d72b6b931854074d6e20932a325431657a8e3b 5638 hello_2.10-2ubuntu4_source.buildinfo
 Files:
- 29c4043bac9d1b7131a7dacdadae5866 1465 devel optional hello_2.10-2ubuntu4.dsc
+ 43391d5998df2c91f2ffb9bc3f3142dc 1465 devel optional hello_2.10-2ubuntu4.dsc
  684dd25d58d49c41171090e6174c4d12 7608 devel optional hello_2.10-2ubuntu4.debian.tar.xz
- a388b0ae5790de2405ba9044122fa3ea 5638 devel optional hello_2.10-2ubuntu4_source.buildinfo
+ 152021db7b372b8e48cf2d03d6b4b209 5638 devel optional hello_2.10-2ubuntu4_source.buildinfo
 Original-Maintainer: Santiago Vila <sanvila@debian.org>
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCgAdFiEEhAqTJRtBuZlZDalZMmMpQ/rwm8sFAmIq59sACgkQMmMpQ/rw
-m8sfNQgAisW0MHxtx4ngaA8azTzjNYj5an205PGIVx+JdT8xSOU/nAmp1xpe+r7b
-EjZM9guw50mBuHHVpHImKA1f/GDWZUx60Smd5O3uCfgBZwFRk1XDHgq6jKcH26s5
-qKoNpkTpGbwC2ZzjDZeL3y8MpDyXg82guj7duc3xa2Gi3PY1J+ZqJ+VdB/QUUkNK
-9EBEDoiGvkMyPsZrpNLDiO0CfKzJKv3PGDCO33XuMeGXX15jxe+mlVYF6EHHvri0
-2pTJbKlpbbYM+wiY4mrHKh0njnW30yE3w/Kxl3UmgVmIzh+CVyVVtuWtu1J13vP+
-xk0vweaCp0cNxrP66s/y+4QIdbiKRA==
-=Bmo4
+iQEzBAEBCgAdFiEEhAqTJRtBuZlZDalZMmMpQ/rwm8sFAmIq8xQACgkQMmMpQ/rw
+m8vumgf+NZvoA3isb6UjZB59lZ4wt18gaEe2Nj9pey6OgrWbWIskxJHNRaxy8JoA
+RBjUFIoPPBtOdN4i9fq4fAREmUq9spDYFViQvNZEdFoIyV3AkYZ2rYxOCGzbPeHj
+HSu34+k/X6Hwsvg4eALacJWDjBl8a7HLA6zVTtfdgeXRtAdMb1NN6QJ/puB6/t73
+wsp2hS9r0WuSp9tosgx+PaZD5mxVVPNztpAsxE/8tsp/7QiYtcgQwJTYh1RKKieu
+zCnlXbwtz3vhiWBQTNeGumorlI9YoP0H7qqNEyntZkDnpx785V/YIpTdzkrtqvrR
+Vkdr/SsMFnCMDf9JAnuF+LVUjc4gdA==
+=pni+
 -----END PGP SIGNATURE-----

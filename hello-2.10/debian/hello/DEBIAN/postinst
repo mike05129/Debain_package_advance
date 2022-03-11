@@ -1,6 +1,0 @@
-#!/bin/sh
-set -ex
-
-echo "this is a test from Mike Huang"
-
-exit 0

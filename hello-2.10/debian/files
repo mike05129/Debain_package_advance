@@ -1,3 +1,1 @@
-hello-dbgsym_2.10-2ubuntu4_amd64.ddeb debug optional automatic=yes
-hello_2.10-2ubuntu4_amd64.buildinfo devel optional
-hello_2.10-2ubuntu4_amd64.deb devel optional
+hello_2.10-2ubuntu4_source.buildinfo devel optional
