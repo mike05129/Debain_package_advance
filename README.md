@@ -26,7 +26,7 @@ Download PPA : add-apt-repository ppa:count/ppa --> apt-get update
 
 ## __REFERENCE__ <br />
 GNU:http://www.gnu.org/software/software.html <br />
-Maintainer Scipts:https://wiki.debian.org/MaintainerScripts <br />
+Maintainer Scripts:https://wiki.debian.org/MaintainerScripts <br />
 Useful CMD : https://www.debian.org/doc/manuals/maint-guide/build.zh-tw.html <br />
 Git lab : https://salsa.debian.org/publicFun <br />
 Linux function : https://man7.org/linux/man-pages/man1/dpkg-source.1.html <br />
