@@ -1,4 +1,4 @@
- dpkg-buildpackage -us -uc -ui -S -d
+ dpkg-buildpackage -us -uc -ui -S
 dpkg-buildpackage: info: source package hello
 dpkg-buildpackage: info: source version 2.10-2ubuntu4
 dpkg-buildpackage: info: source distribution focal

@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.8
 Date: Thu, 10 Mar 2022 21:24:53 -0800
 Source: hello
@@ -12,15 +15,27 @@ Changes:
  .
    *This is for debian assignment
 Checksums-Sha1:
- c31f6055a8dc1b7c1b5d50a225160658deb1684a 927 hello_2.10-2ubuntu4.dsc
+ f1b8e14a49f8fa77412f86d60e4a651b47c8bd49 1465 hello_2.10-2ubuntu4.dsc
  a856863d1963fb04d784895de510dc3fca7ad8f7 7608 hello_2.10-2ubuntu4.debian.tar.xz
- d4ce42c9d5e9573f2bb2ada82d48660ae32552fc 5097 hello_2.10-2ubuntu4_source.buildinfo
+ ffc96b7178237c11e23c43bc633e3bb2b9985431 5638 hello_2.10-2ubuntu4_source.buildinfo
 Checksums-Sha256:
- 833028a9a068a1456ff5683fa675a9c1234ab061447b4b78eda495eeb3828862 927 hello_2.10-2ubuntu4.dsc
+ 7bf309efc35ae088886a09da8d9a8e7559d67a76e3b7ddb808e8a438450c1438 1465 hello_2.10-2ubuntu4.dsc
  f0b7d950eaf436f0aece579ec7ee36ecf39a02d81674904a9700c36bd2fc5939 7608 hello_2.10-2ubuntu4.debian.tar.xz
- 83a398bab8ac6b0d07b0610cb04260e5e53884a3f57dd2a8ec5c81d435a7c22d 5097 hello_2.10-2ubuntu4_source.buildinfo
+ dcd8ce91d4ca9bb5cdfbe2770b5b579b529cb9b93640ba42a1c6324da6466bc7 5638 hello_2.10-2ubuntu4_source.buildinfo
 Files:
- 1b83c03ac5a23f58ef5e5ce4af3d58b7 927 devel optional hello_2.10-2ubuntu4.dsc
+ 29c4043bac9d1b7131a7dacdadae5866 1465 devel optional hello_2.10-2ubuntu4.dsc
  684dd25d58d49c41171090e6174c4d12 7608 devel optional hello_2.10-2ubuntu4.debian.tar.xz
- bf4dc5fc9495475ae9a9d36e78ebe9d6 5097 devel optional hello_2.10-2ubuntu4_source.buildinfo
+ a388b0ae5790de2405ba9044122fa3ea 5638 devel optional hello_2.10-2ubuntu4_source.buildinfo
 Original-Maintainer: Santiago Vila <sanvila@debian.org>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCgAdFiEEhAqTJRtBuZlZDalZMmMpQ/rwm8sFAmIq59sACgkQMmMpQ/rw
+m8sfNQgAisW0MHxtx4ngaA8azTzjNYj5an205PGIVx+JdT8xSOU/nAmp1xpe+r7b
+EjZM9guw50mBuHHVpHImKA1f/GDWZUx60Smd5O3uCfgBZwFRk1XDHgq6jKcH26s5
+qKoNpkTpGbwC2ZzjDZeL3y8MpDyXg82guj7duc3xa2Gi3PY1J+ZqJ+VdB/QUUkNK
+9EBEDoiGvkMyPsZrpNLDiO0CfKzJKv3PGDCO33XuMeGXX15jxe+mlVYF6EHHvri0
+2pTJbKlpbbYM+wiY4mrHKh0njnW30yE3w/Kxl3UmgVmIzh+CVyVVtuWtu1J13vP+
+xk0vweaCp0cNxrP66s/y+4QIdbiKRA==
+=Bmo4
+-----END PGP SIGNATURE-----

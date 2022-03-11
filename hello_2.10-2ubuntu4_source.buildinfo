@@ -1,17 +1,20 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.0
 Source: hello
 Binary: hello
 Architecture: source
 Version: 2.10-2ubuntu4
 Checksums-Md5:
- 1b83c03ac5a23f58ef5e5ce4af3d58b7 927 hello_2.10-2ubuntu4.dsc
+ 29c4043bac9d1b7131a7dacdadae5866 1465 hello_2.10-2ubuntu4.dsc
 Checksums-Sha1:
- c31f6055a8dc1b7c1b5d50a225160658deb1684a 927 hello_2.10-2ubuntu4.dsc
+ f1b8e14a49f8fa77412f86d60e4a651b47c8bd49 1465 hello_2.10-2ubuntu4.dsc
 Checksums-Sha256:
- 833028a9a068a1456ff5683fa675a9c1234ab061447b4b78eda495eeb3828862 927 hello_2.10-2ubuntu4.dsc
+ 7bf309efc35ae088886a09da8d9a8e7559d67a76e3b7ddb808e8a438450c1438 1465 hello_2.10-2ubuntu4.dsc
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Thu, 10 Mar 2022 21:48:30 -0800
+Build-Date: Thu, 10 Mar 2022 22:00:00 -0800
 Build-Tainted-By:
  merged-usr-via-symlinks
 Installed-Build-Depends:
@@ -161,3 +164,15 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="en_US.UTF-8"
  SOURCE_DATE_EPOCH="1646976293"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCgAdFiEEhAqTJRtBuZlZDalZMmMpQ/rwm8sFAmIq59oACgkQMmMpQ/rw
+m8slVAgAs2s5DbRmCeS06SffxqfJXaYyOZtoOe7x+sCJNx3g84kPXkHw+JS1/9Vj
+q3nrI8lUOZylk0mYVpuTFmOZ+uE/Nvhasgp/2g+KkX16+YTyp/qn3KAaP+3loSsv
+RHPNPTnGhvCa8ScaB7My4lShOtvtOVT681RGEEDvpe5QNwbisN+2zjXEgVGAHtw2
+gQ1EYO9rSS9iS29+j5XwYB402y5fVyB7hwgfq1Sjhdo3e/WlWdshR8AagPn6453e
+GeICmY5iXH0HIvrHT6lJWvRrRDlRwDBHtcJY9epFkVACSK8PgOZOkZCFn9Yfn3a0
+5XLjpGt58w6EjTHAbApeVgAx56h7vA==
+=60xJ
+-----END PGP SIGNATURE-----
